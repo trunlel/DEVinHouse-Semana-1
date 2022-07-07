@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.corpo {
+    background-image: url(../../imagens/backgrounbody.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 10px;
+    margin-top: 70px;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+h1 {
+    background-image: url(../imgs/background.jpg);
+    background-position: left;
+    background-color: rgb(40, 124, 53);
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
+
+.container {
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
+}
+
+.relaxada {
+    margin-top: 5px;
+
+}
+
+.containeryou {
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+}
+
+.button {
+    background-image: url(../imgs/background.jpg);
+    background-position: right;
+    color: rgb(192, 192, 192);
+    border-radius: 10px;
+    padding: 10px;
+    border: solid 2px rgb(182, 180, 180);
+    margin-top: 220px;
+    font-weight: bold;
+    appearance: button;
+    text-decoration: none;
+
+}
+
+.button:hover {
+    transform: scale(0.9);
+}
+
+.botaoemvolta {
+    padding: 10px;
+}
+
+.fileira {
+    display: flex;
+    gap: 5px;
+    height: 450px;
+    width: 450px;
+    margin: 5px;
+}
+
+.coluna {
+    border: solid 2px rgb(255, 255, 255);
+    display: flex;
+    margin-top: 80px;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    background-image: url(../../imagens/navbar.jpg);
+    background-color: rgb(16, 82, 16);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    top: 0;
+    width: 100%;
+    justify-content: left;
+    display: flex;
+    gap: 30px;
+
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+    transition: 300ms;
+}
+
+.navbarlogo {
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 100%;
+    float: left;
+    justify-content: left;
+}
+
+.rodape {
+    height: 80px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.891);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.conteudo {
+    min-height: 90vh;
+}
+
+
+/* img.coluna {
+
+} */
